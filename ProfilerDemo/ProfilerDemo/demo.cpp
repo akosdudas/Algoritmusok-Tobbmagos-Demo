@@ -63,7 +63,7 @@ void ilp()
 		for (int i = 2; i < size - 1; i += 2)
 		{
 			m1 = std::max(m1, t[i]);
-			m2 = std::max(m2, t[i]);
+			m2 = std::max(m2, t[i+1]);
 		}
 		max = std::max(m1, m2);
 	}
