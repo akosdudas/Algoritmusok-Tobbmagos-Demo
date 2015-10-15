@@ -111,6 +111,7 @@ void branch()
 
 	// 4. bad branch prediction
 	printf("branch: bad branch prediction\n");
+	timerStart = startTimer();
 	for (int r = 0; r < 500; ++r)
 	{
 		for (int i = 0; i < size; ++i)
