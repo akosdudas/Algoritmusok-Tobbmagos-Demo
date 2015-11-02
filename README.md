@@ -2,3 +2,4 @@
 
 * MatrixSzorzas: Elso eloadas matrix szorzas optimalizalasa.
 * ProfilerDemo: Otodik eloadas ILP, cache miss, branch misprediction, profilozas.
+* ThreadsLocks: Hetedik eloadas szalak es zarak hasznalata.
